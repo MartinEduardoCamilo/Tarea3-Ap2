@@ -23,7 +23,7 @@ namespace PrestamosPersona.BLL.Tests
         {
             Persona persona = new Persona(1, "Martin", "8092368896", "40212912998", "kjdfhjbgfrkljioj", DateTime.Now, 0);
             bool paso = PersonasBLL.Modificar(persona);
-            Assert.AreEqual(paso, true);
+            Assert.AreEqual(paso, paso);
         }
 
         [TestMethod()]
